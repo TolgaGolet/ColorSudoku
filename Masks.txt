@@ -1,0 +1,36 @@
+on use
+private boolean[][] masks =
+      {{false, false, true, false, true, false, true, false, true},
+       {false, false, true, false, false, false, false, true, true},
+       {false, true, false, true, false, true, true, false, true},
+       {true, false, false, false, true, false, true, false, false},
+       {false, true, false, false, false, false, true, false, false},
+       {false, true, false, true, false, true, true, true, false},
+       {true, false, true, false, true, true, false, true, true},
+       {false, false, false, false, false, true, true, false, true},
+       {true, false, false, true, false, false, false, false, false}};
+
+medium
+private boolean[][] masks =
+      {{false, true, true, true, true, true, true, false, true},
+       {false, false, true, true, false, false, false, true, true},
+       {false, true, true, true, false, true, true, false, true},
+       {true, false, true, true, true, true, true, true, false},
+       {true, true, true, false, false, false, true, true, true},
+       {false, true, false, true, true, true, true, true, false},
+       {true, false, true, false, true, true, false, true, true},
+       {false, false, true, false, true, true, true, false, true},
+       {true, false, true, true, true, true, false, false, false}};
+
+
+default for test
+private boolean[][] masks =
+      {{false, false, false, false, false, false, false, false, false},
+       {false, false, false, false, false, false, false, false, false},
+       {false, false, false, false, false, false, false, false, false},
+       {false, false, false, false, false, false, false, false, false},
+       {false, false, false, false, false, false, false, false, false},
+       {false, false, false, true, false, false, false, false, false},
+       {false, false, false, false, false, false, false, false, false},
+       {false, false, false, false, false, false, false, false, false},
+       {false, false, false, true, false, false, false, false, false}};
